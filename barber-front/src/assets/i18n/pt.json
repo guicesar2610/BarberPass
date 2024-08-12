@@ -1,0 +1,9 @@
+{
+  "login": {
+    "title": "LoginTT"
+  },
+  "header": {
+    "text-scheduling": "Agendamentos",
+    "text-profile": "Perfil"
+  }
+}

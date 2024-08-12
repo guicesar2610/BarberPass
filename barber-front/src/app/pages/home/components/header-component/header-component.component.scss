@@ -1,0 +1,41 @@
+.header-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 96px;
+  background-color: #141518;
+}
+
+.header-logo {
+  padding-left: 120px;
+}
+
+.header-info {
+  display: flex;
+  align-items: center;
+  padding-right: 120px;
+}
+
+.text-scheduling {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  padding-left: 8px;
+  padding-right: 40px;
+}
+
+.button-profile {
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: #8162ff;
+  width: 92px;
+  height: 36px;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  padding-right: 10px;
+}
