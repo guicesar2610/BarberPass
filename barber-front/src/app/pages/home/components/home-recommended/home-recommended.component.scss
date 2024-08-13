@@ -1,0 +1,114 @@
+.main {
+  display: flex;
+  padding-left: 120px;
+  height: 463px;
+  position: relative;
+  overflow: hidden;
+}
+
+.main::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('/assets/img-background-recommended.jpeg') no-repeat center
+    center;
+  background-size: cover;
+  opacity: 0.18;
+  transform: scale(1.1);
+}
+
+.div-info-barber,
+.div-info-recommended {
+  width: 50%;
+  margin-top: 65px;
+  z-index: 1;
+}
+
+.div-info-barber {
+  padding-right: 20px;
+}
+
+.div-info-recommended {
+  padding-left: 20px;
+}
+
+.carousel-container {
+  position: relative;
+  width: 500px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+  min-width: 220px;
+  height: 295px;
+  margin-right: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  font-size: 18px;
+}
+
+.carousel-prev,
+.carousel-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  font-size: 24px;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.carousel-next {
+  right: 0px;
+}
+
+.button-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  width: 40px;
+  border: none;
+  background-color: #8162ff;
+  border-radius: 8px;
+  margin-left: 8px;
+}
+
+.input-css {
+  background-color: #1a1b1f;
+  border: 1px solid #26272b;
+  color: #ffffff;
+}
+
+.text-user-or-login {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  color: #ffffff;
+}
+
+.login-link {
+  font-weight: 700;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.text-info-date {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #ffffff;
+}

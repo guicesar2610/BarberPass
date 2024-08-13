@@ -5,5 +5,37 @@
   "header": {
     "text-scheduling": "Agendamentos",
     "text-profile": "Perfil"
+  },
+  "home": {
+    "hello": "Olá",
+    "log-in": "Faça seu login!",
+    "recommended": "Recomendados",
+    "daysOfWeek": [
+      "Domingo",
+      "Segunda",
+      "Terça",
+      "Quarta",
+      "Quinta",
+      "Sexta",
+      "Sábado"
+    ],
+    "months": [
+      "Janeiro",
+      "Fevereiro",
+      "Março",
+      "Abril",
+      "Maio",
+      "Junho",
+      "Julho",
+      "Agosto",
+      "Setembro",
+      "Outubro",
+      "Novembro",
+      "Dezembro"
+    ]
+  },
+  "itemRecommended": {
+    "assessment": "Avaliação:",
+    "book": "Reservar"
   }
 }

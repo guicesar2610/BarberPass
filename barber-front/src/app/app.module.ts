@@ -14,9 +14,11 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { HomeComponent } from './pages/home/home.component';
 import { HeaderComponentComponent } from './pages/home/components/header-component/header-component.component';
+import { HomeRecommendedComponent } from './pages/home/components/home-recommended/home-recommended.component';
+import { ItemRecommendedComponent } from './pages/home/components/home-recommended/components/item-recommended/item-recommended.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, HeaderComponentComponent],
+  declarations: [AppComponent, HomeComponent, HeaderComponentComponent, HomeRecommendedComponent, ItemRecommendedComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

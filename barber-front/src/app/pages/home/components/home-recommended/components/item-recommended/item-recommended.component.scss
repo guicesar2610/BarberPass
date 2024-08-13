@@ -1,0 +1,53 @@
+.carousel-item {
+  width: 220px;
+  height: 295px;
+  margin-right: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background: #1a1b1f;
+
+  img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+  }
+
+  .barber-shop-details {
+    padding: 8px;
+
+    h3 {
+      font-size: 16px;
+      font-weight: 700;
+      color: #ffffff;
+      margin-top: 12px;
+    }
+
+    p {
+      font-size: 12px;
+      font-weight: 400;
+      color: #ffffff;
+    }
+
+    span {
+      font-size: 12px;
+      font-weight: 400;
+      color: #ffffff;
+    }
+
+    button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 197px;
+      height: 36px;
+      background-color: #26272b;
+      border: none;
+      border-radius: 10px;
+      gap: 8px;
+      margin-top: 12px;
+      color: #ffffff;
+    }
+  }
+}

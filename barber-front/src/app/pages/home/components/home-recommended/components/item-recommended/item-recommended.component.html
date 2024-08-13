@@ -1,0 +1,12 @@
+<div class="carousel-item">
+  <img [src]="item.barberShopImg" alt="{{ item.barberShopName }}" />
+  <div class="barber-shop-details">
+    <h3>{{ item.barberShopName }}</h3>
+    <p>{{ item.barberShopAddress }}</p>
+    <span
+      >{{ 'itemRecommended.assessment' | translate }}
+      {{ item.barberShopAssessment }}</span
+    >
+    <button>{{ 'itemRecommended.book' | translate }}</button>
+  </div>
+</div>
