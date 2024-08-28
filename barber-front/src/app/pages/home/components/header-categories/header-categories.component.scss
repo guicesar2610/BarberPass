@@ -1,0 +1,28 @@
+.div-main {
+  display: flex;
+  padding-left: 120px;
+  justify-content: center;
+}
+
+.div-button-css {
+  display: flex;
+  align-items: center;
+  margin-right: 24px;
+  width: 177px;
+  height: 44px;
+}
+
+.button-css {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 177px;
+  height: 44px;
+  background-color: #1a1b1f;
+  border: 1px solid #26272b;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+}

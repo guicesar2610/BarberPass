@@ -16,9 +16,10 @@ import { HomeComponent } from './pages/home/home.component';
 import { HeaderComponentComponent } from './pages/home/components/header-component/header-component.component';
 import { HomeRecommendedComponent } from './pages/home/components/home-recommended/home-recommended.component';
 import { ItemRecommendedComponent } from './pages/home/components/home-recommended/components/item-recommended/item-recommended.component';
+import { HeaderCategoriesComponent } from './pages/home/components/header-categories/header-categories.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, HeaderComponentComponent, HomeRecommendedComponent, ItemRecommendedComponent],
+  declarations: [AppComponent, HomeComponent, HeaderComponentComponent, HomeRecommendedComponent, ItemRecommendedComponent, HeaderCategoriesComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

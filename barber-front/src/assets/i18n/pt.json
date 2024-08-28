@@ -37,5 +37,13 @@
   "itemRecommended": {
     "assessment": "Avaliação:",
     "book": "Reservar"
+  },
+  "categories": {
+    "scissors": "Cabelo",
+    "moustache": "Barba",
+    "razor": "Acabamento",
+    "eyebrow": "Sobrancelha",
+    "massage": "Massagem",
+    "hydration": "Hidratação"
   }
 }
