@@ -18,6 +18,7 @@ import { HomeRecommendedComponent } from './pages/home/components/home-recommend
 import { ItemRecommendedComponent } from './pages/home/components/home-recommended/components/item-recommended/item-recommended.component';
 import { HeaderCategoriesComponent } from './pages/home/components/header-categories/header-categories.component';
 import { PopularBarberShopsComponent } from './pages/home/components/popular-barber-shops/popular-barber-shops.component';
+import { MostVisitedBarberShopComponent } from './pages/home/components/most-visited-barber-shop/most-visited-barber-shop.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { PopularBarberShopsComponent } from './pages/home/components/popular-bar
     ItemRecommendedComponent,
     HeaderCategoriesComponent,
     PopularBarberShopsComponent,
+    MostVisitedBarberShopComponent,
   ],
   imports: [
     BrowserModule,

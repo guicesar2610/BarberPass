@@ -10,6 +10,8 @@
     "hello": "Olá",
     "log-in": "Faça seu login!",
     "recommended": "Recomendados",
+    "mostVisited": "Mais Visitados",
+    "popular": "Populares",
     "daysOfWeek": [
       "Domingo",
       "Segunda",
