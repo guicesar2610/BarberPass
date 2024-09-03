@@ -17,9 +17,18 @@ import { HeaderComponentComponent } from './pages/home/components/header-compone
 import { HomeRecommendedComponent } from './pages/home/components/home-recommended/home-recommended.component';
 import { ItemRecommendedComponent } from './pages/home/components/home-recommended/components/item-recommended/item-recommended.component';
 import { HeaderCategoriesComponent } from './pages/home/components/header-categories/header-categories.component';
+import { PopularBarberShopsComponent } from './pages/home/components/popular-barber-shops/popular-barber-shops.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, HeaderComponentComponent, HomeRecommendedComponent, ItemRecommendedComponent, HeaderCategoriesComponent],
+  declarations: [
+    AppComponent,
+    HomeComponent,
+    HeaderComponentComponent,
+    HomeRecommendedComponent,
+    ItemRecommendedComponent,
+    HeaderCategoriesComponent,
+    PopularBarberShopsComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,

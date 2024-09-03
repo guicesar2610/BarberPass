@@ -21,8 +21,6 @@
 
   <div class="div-info-recommended">
     <span style="color: white">{{ 'home.recommended' | translate }}</span>
-
-    <!-- Carrossel -->
     <div class="carousel-container">
       <div class="carousel">
         <app-item-recommended
@@ -30,8 +28,8 @@
           [item]="item"
         ></app-item-recommended>
       </div>
-      <button class="carousel-prev" (click)="prev()">‹</button>
-      <button class="carousel-next" (click)="next()">›</button>
+      <button class="carousel-prev" (click)="previousItem()">‹</button>
+      <button class="carousel-next" (click)="nextItem()">›</button>
     </div>
   </div>
 </div>

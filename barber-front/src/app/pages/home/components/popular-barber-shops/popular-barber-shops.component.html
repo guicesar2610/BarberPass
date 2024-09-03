@@ -1,0 +1,16 @@
+<div class="main">
+  <div class="div-info-recommended">
+    <span style="color: white">{{ 'home.recommended' | translate }}</span>
+
+    <div class="carousel-item-popular-container">
+      <div class="carousel-item-popular">
+        <app-item-recommended
+          *ngFor="let item of recommendedItems"
+          [item]="item"
+        ></app-item-recommended>
+      </div>
+      <button class="carousel-prev" (click)="previousItem()">‹</button>
+      <button class="carousel-next" (click)="nextItem()">›</button>
+    </div>
+  </div>
+</div>

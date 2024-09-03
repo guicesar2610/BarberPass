@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
-import { MOCK_RECOMMENDED_ITEMS } from './components/item-recommended/mock';
 import { ItemRecommendedInterface } from './components/item-recommended/interfaces/irecommended-item.interface';
 import { TranslateService } from '@ngx-translate/core';
+import { MOCK_POPULAR_ITEMS } from '../popular-barber-shops/mock';
 
 @Component({
   selector: 'app-home-recommended',
@@ -10,7 +10,8 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class HomeRecommendedComponent {
   currentSlide = 0;
-  recommendedItems: ItemRecommendedInterface[] = MOCK_RECOMMENDED_ITEMS;
+  visibleItems = 2;
+  recommendedItems: ItemRecommendedInterface[] = MOCK_POPULAR_ITEMS;
   currentDate!: string;
 
   constructor(private translate: TranslateService) {
@@ -32,23 +33,19 @@ export class HomeRecommendedComponent {
       });
   }
 
-  prev() {
-    const items = document.querySelectorAll('.carousel-item');
-    const itemsToShow = 2;
+  get totalSlides(): number {
+    return this.recommendedItems.length - this.visibleItems;
+  }
+
+  previousItem() {
     this.currentSlide =
-      this.currentSlide === 0
-        ? items.length - itemsToShow
-        : this.currentSlide - 1;
+      this.currentSlide === 0 ? this.totalSlides : this.currentSlide - 1;
     this.updateCarousel();
   }
 
-  next() {
-    const items = document.querySelectorAll('.carousel-item');
-    const itemsToShow = 2;
+  nextItem() {
     this.currentSlide =
-      this.currentSlide === items.length - itemsToShow
-        ? 0
-        : this.currentSlide + 1;
+      this.currentSlide === this.totalSlides ? 0 : this.currentSlide + 1;
     this.updateCarousel();
   }
 

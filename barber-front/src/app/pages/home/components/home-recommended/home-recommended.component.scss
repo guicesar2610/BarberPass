@@ -1,9 +1,10 @@
 .main {
   display: flex;
-  padding-left: 120px;
   height: 463px;
   position: relative;
   overflow: hidden;
+  padding-left: 120px;
+  padding-right: 120px;
 }
 
 .main::before {
@@ -37,7 +38,6 @@
 
 .carousel-container {
   position: relative;
-  width: 500px;
   overflow: hidden;
   margin-top: 20px;
 }
